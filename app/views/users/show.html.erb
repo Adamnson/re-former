@@ -1,0 +1,4 @@
+<h1>Hi <%= @user.username %></h1>
+
+<h2>Your account was created on <%= @user.created_at.strftime("%d-%m-%Y") %></h2>
+<h2>The last update to your account was at <%= @user.updated_at.strftime("%H:%m on %d-%m-%Y") %></h2>
